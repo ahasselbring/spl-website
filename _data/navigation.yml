@@ -1,0 +1,55 @@
+- name: Home
+  url: /
+- name: Teams
+  url: /teams
+- name: Events
+  url: /events
+- name: League History
+  url: /history
+- name: Downloads
+  url: /downloads
+  submenu:
+    - name: Open Source
+      url: /open-source
+    - name: Research
+      url: /research
+    - name: V6 Support
+      url: /v6-support
+- name: Contact
+  url: /contact
+- name: 2021
+  submenu:
+    - name: Home (official website)
+      url: "https://2021.robocup.org"
+    - name: Rules (.pdf)
+      url: "https://cdn.robocup.org/spl/wp/2021/01/SPL-Rules-2021.pdf"
+- name: 2020
+  submenu:
+    - name: Home (official website)
+      url: "https://www.robocup.fr/robocup-2020-1"
+    - name: Committees
+      url: /committees-2020
+    - name: Call for Participation
+      url: /call-for-participation-2020
+    - name: Rules (.pdf)
+      url: "https://collaborating.tuhh.de/HULKs/robocup_tc_public/raw/master/SPL-Rules_2020.pdf"
+    - name: Teams
+      url: /teams-2020
+- name: 2019
+  submenu:
+    - name: Home (2019.robocup.org)
+      url: "https://2019.robocup.org"
+    - name: Schedule
+      url: /schedule-2019
+    - name: Results
+      url: /results-2019
+    - name: Committees
+      url: /committees-2019
+    - name: Call for Participation
+      url: /call-for-participation-2019
+    - name: Rules (.pdf)
+      url: "http://spl.robocup.org/wp-content/uploads/downloads/Rules2019.pdf"
+    - name: Challenges
+      url: /technical-challenges-2019
+    - name: Teams
+      url: /teams-2019

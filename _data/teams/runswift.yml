@@ -1,0 +1,26 @@
+name: rUNSWift
+country: au
+url: https://unswrobocup.wordpress.com
+contact:
+  - name: Claude Sammut
+    mail: c.sammut@unsw.edu.au
+  - name: Thomas Wells
+    mail: thomas.wells@student.unsw.edu.au
+  - name: Tripta Kaur
+    mail: t.kaur@student.unsw.edu.au
+institutes:
+  - name: The University of New South Wales / School of Computer Science and Engineering
+    url: https://www.unsw.edu.au
+profile: |
+  rUNSWift is the University of New South Wales’ RoboCup SPL team. The team is mostly made up of undergraduate students from Computer Science and Mechatronic Engineering, with some postgraduate and alumni members.
+
+  Undergraduate students are often enrolled in an Honours thesis or Special Project course as part of their studies. The team has competed in SPL since 1999 and won the championship in 2014 and 2015.
+topics: >
+  Autonomous Systems is a priority research topic in robotics at CSE, UNSW. Our general research focus, of which the RoboCup SPL is a part, is to:
+    - further develop reasoning methods that incorporate uncertainty and real-time constraints and that integrate with the statistical methods used in SLAM and perception
+    - develop methods for using estimates of uncertainty to guide future decision making so as to reduce the uncertainty
+    - extend these methods for multi-robot cooperation
+    - develop learning algorithms for hybrid systems, such as using knowledge of logical constraints to restrict the search of a trial-and-error learner and learning the constraints
+    - develop high level symbolic robotic languages that provide abstractions for a large range of deliberation, planning and learning techniques so as to simplify robot programming
+report: >
+  [2019 Release](https://github.com/UNSWComputing/rUNSWift-2019-release)

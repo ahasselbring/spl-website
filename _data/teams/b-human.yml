@@ -1,0 +1,20 @@
+name: B-Human
+country: de
+logo: B-Human.png
+url: https://b-human.de
+contact:
+  - name: Thomas Röfer
+    mail: thomas.roefer@dfki.de
+  - name: Tim Laue
+    mail: tlaue@uni-bremen.de
+institutes:
+  - name: DFKI Bremen, Cyber-Physical Systems
+    url: https://www-cps.hb.dfki.de
+  - name: University of Bremen, Department of Computer Science
+    url: https://www.informatik.uni-bremen.de
+profile: >
+  B-Human consists of students from the University of Bremen in their advanced study period and researchers from both the University Bremen and the DFKI Bremen. In the past, members of the B-Human team participated in different RoboCup leagues. B-Human won the RoboCup World Championships 2009, 2010, 2011, 2013, 2016, 2017, and 2019. We also won the RoboCup German Open 2009-2017 and 2019, the European Open in 2016, the RoboCup Technical Challenges in 2009, 2013, 2014, 2015, 2017, and 2018, the Drop-in Player competitions at the RoboCup German Open 2014 and 2015 and at the RoboCup 2014 and 2016, and all Mixed Team Competitions of the league. In addition, B-Human team members earned the Best Paper Award at the RoboCup Symposiums 2010 and 2013. In 2020, we intend to participate again in the RoboCup German Open and in the RoboCup World Championship.
+topics: >
+  Probabilistic state estimation, real-time computer vision, machine learning, robot simulation, motion control
+report: >
+  [2019 Team Report and Code Release](https://b-human.de/downloads/publications/2019/CodeRelease2019.pdf)

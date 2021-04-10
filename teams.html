@@ -1,0 +1,84 @@
+---
+title: Active SPL Teams Worldwide
+layout: default
+---
+<aside>
+  <h4>Teams Sidebar</h4>
+  <!-- There does not seem to be a better way to do this because site.data.teams is a hash and `map: "country"` would only work if it was an array of the values in the hash -->
+  {% capture countries %}
+    {% for team in site.data.teams %}
+      {{ team[1].country }}
+    {% endfor %}
+  {% endcapture %}
+  {% assign countries = countries | split: " " | sort | uniq %}
+  {% for country in countries %}
+    <b>{{ site.data.countries[country] }}</b>
+    <br/>
+    {% assign teams = site.data.teams | where: "country", country | sort: "name" %}
+    {% for team in teams %}
+      <a href="#tag-{{ team.name | slugify }}">{{ team.name }}</a>
+      <br/>
+    {% endfor %}
+    <br/>
+  {% endfor %}
+</aside>
+<table>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <hr/>
+      </td>
+    </tr>
+    {% assign teams = site.data.teams | sort %}
+    {% for team_hash in teams %}
+      {% assign team = team_hash[1] %}
+      <tr>
+        <td>
+          {% if team.logo %}
+          <img src="/assets/images/teams/{{ team.logo }}" style="width: 200px;" alt="{{ team.name }} Logo"/>
+          <br/>
+          {% endif %}
+          <a href="{{ team.url }}" target="_blank" rel="noopener noreferrer" name="tag-{{ team.name | slugify }}">{{ team.name }}</a>
+        </td>
+        <td>
+          <div>
+            <!-- TODO: country flag -->
+            {{ site.data.countries[team.country] }}
+            <!-- TODO: Actually, country must be a list due to MiPal -->
+          </div>
+          <p>
+            <b>Team Contact:</b>
+            {% for contact in team.contact %}
+              <br/>
+              <a href="mailto:{{ contact.mail }}">{{ contact.name }}</a>
+            {% endfor %}
+          </p>
+          <p>
+            <b>Institutes:</b>
+            {% for institute in team.institutes %}
+              <br/>
+              <a href="{{ institute.url }}">{{ institute.name }}</a>
+            {% endfor %}
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td><b>Team Profile:</b></td>
+        <td>{{ team.profile | markdownify }}</td>
+      </tr>
+      <tr>
+        <td><b>Research Topics:</b></td>
+        <td>{{ team.topics | markdownify }}</td>
+      </tr>
+      <tr>
+        <td><b>Team Report</b>:</td>
+        <td>{{ team.report | markdownify }}</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <hr/>
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

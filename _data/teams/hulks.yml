@@ -1,0 +1,15 @@
+name: HULKs
+country: de
+url: https://www.hulks.de
+contact:
+  - name: Patrick Göttsch
+    mail: hulks@tuhh.de
+institutes:
+  - name: Technical University of Hamburg (TUHH)
+    url: https://www.tuhh.de
+profile: >
+  HULKs is student association of graduate and undergraduate students established in 2013 working in their leisure time or in thesis works on RoboCup SPL topics. We developed an own NAO framework. Team members participated at RoboCup from 2014 to 2019, IranOpen 2017, 2018, GermanOpens in 2014, 2015 and 2017 – 2019 and EuropeanOpen in 2016. For 2015, 2017 – 2020 we were prequalifed for the RoboCup. Our best result in RoboCup is the fourth place in 2018. We organize the [RoHOW](https://www.rohow.de) for the last six years.
+topics: >
+  Fast and reliable software frameworks, biped walking, machine learning, computer vision, path planning
+report: >
+  [2019](https://hulks.de/_files/TRR_2019.pdf)

@@ -1,0 +1,42 @@
+- name: RoboCup World Championship 2019
+  year: 2019
+  date: July 2 &ndash; 8, 2019
+  url: https://2019.robocup.org
+  location: Sydney
+  logo: robocup2019.jpg
+
+- name: RoboCup German Open 2019
+  year: 2019
+  date: May 3 &ndash; 5, 2019
+  url: https://robocupgermanopen.de/en
+  location: Magdeburg
+  logo: go2004.gif
+  results: /events/german-open-results-2019
+
+- name: RoboCup World Championship 2018
+  year: 2018
+  date: June 16 &ndash; 22, 2018
+  url: http://2018.robocup.org
+  location: Montréal
+  logo: robocup2018.png
+  results: /events/results-2018
+
+- name: RoboCup US Open 2018
+  year: 2018
+  date: May 8 &ndash; 10, 2018
+  url: https://fling.seas.upenn.edu/~robocup/USOpen2018/index.html
+  location: Philadelphia
+
+- name: RoboCup German Open 2018
+  year: 2018
+  date: April 25 &ndash; 29, 2018
+  url: https://robocupgermanopen.de/en
+  location: Magdeburg
+  logo: go2004.gif
+  results: /events/german-open-results-2018
+
+- name: RoboCup Iran Open 2018
+  year: 2018
+  date: April 3 &ndash; 7, 2018
+  url: http://2018.iranopen.ir
+  location: Tehran

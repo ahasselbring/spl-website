@@ -1,0 +1,38 @@
+---
+title: Events
+layout: default
+---
+{% assign years = site.data.events | map: "year" | sort | uniq | reverse %}
+<table>
+  <tbody>
+    {% for year in years %}
+      <tr>
+        <td colspan="3">
+          <h2>
+            <a name="#{{ year }}"></a>
+            {{ year }}
+          </h2>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <hr/>
+        </td>
+      </tr>
+      {% assign events = site.data.events | where: "year", year %}
+      {% for event in events %}
+        <tr>
+          <td align="center">
+            <a href="{{ event.url }}" target="_top"><img src="/assets/images/events/{{ event.logo | default: "default.png" }}"/></a>
+          </td>
+          <td>
+            <strong>{{ event.date }}:</strong>
+          </td>
+          <td>
+            <a href="{{ event.url }}" target="_top">{{ event.name }}</a>, {{ event.location }}{% if event.results %} (<a href="{{ event.results }}">Results</a>){% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+    {% endfor %}
+  </tbody>
+</table>

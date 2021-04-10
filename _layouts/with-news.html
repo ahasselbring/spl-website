@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{{ content }}
+<aside>
+  <h4>Latest News</h4>
+  {% for post in site.posts limit: 3 %}
+    <b>{{ post.date | date_to_string }}:</b>
+    <p>{{ post.excerpt }}</p>
+    <br/>
+    <hr/>
+  {% endfor %}
+  <a href="/news">show all news</a>
+</aside>

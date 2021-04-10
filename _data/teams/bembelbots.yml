@@ -1,0 +1,17 @@
+name: Bembelbots
+country: de
+url: https://www.bembelbots.de
+contact:
+  - name: Jens-Michael Siegl
+    mail: teamleader@bembelbots.de
+institutes:
+  - name: Goethe University Frankfurt am Main, Institute for Computer Science
+    url: https://www.cs.uni-frankfurt.de
+profile: |
+  The RoboCup team Bembelbots was founded in 2009 at the Goethe University Frankfurt (Main), Germany, as a group fully organized by students. As there is no robotics group at the university, the team shall help students to increase their experience in robotics, as well as programming skills in addition to the theoretical orientation of the computer science degree program of the university. For that reason, we started developing our own framework from scratch.
+
+  Team Bembelbots has regularly competed in the RoboCup German Open since 2010 as well as the RoboCup Worldcups in 2012, 2013 & 2016-2019.
+topics: >
+  Machine Learning, Localization, Behavior Modeling, Software architecture
+report: >
+  [Team Research Report 2019](https://bembelbots.de/TRR2019.pdf)

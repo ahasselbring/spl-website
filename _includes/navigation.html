@@ -1,0 +1,18 @@
+<nav>
+  <ul>
+    {% for item in site.data.navigation %}
+      <li>
+        <a{% if item.url %} href="{{ item.url }}"{% endif %}>{{ item.name }}</a>
+        {% if item.submenu %}
+          <ul>
+            {% for subitem in item.submenu %}
+              <li>
+                <a{% if subitem.url %} href="{{ subitem.url }}"{% endif %}>{{ subitem.name }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
